@@ -1,0 +1,9 @@
+.Enable_DarkMode {
+  background-color: black;
+  color: aliceblue;
+}
+
+.Enable_LightMode {
+  background-color: white;
+  color: black;
+}

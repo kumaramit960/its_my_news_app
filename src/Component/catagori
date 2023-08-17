@@ -1,0 +1,68 @@
+<Route exact path="/♂business"><News pageSize={10} country="In" category="general" /> </Route>
+<Route exact path="/♂entertainment"><News pageSize={10} country="In" category="general" /> </Route>
+<Route exact path="/♂general"><News pageSize={10} country="In" category="general" /> </Route>
+<Route exact path="/♂health"><News pageSize={10} country="In" category="general" /> </Route>
+<Route exact path="/♂science"><News pageSize={10} country="In" category="general" /> </Route>
+<Route exact path="/♂sports"><News pageSize={10} country="In" category="general" /> </Route>
+<Route exact path="/♂technology"><News pageSize={10} country="In" category="general" /> </Route>
+
+
+
+<Route exact path="/"><News pageSize={10} country="In" category="general" /> </Route>
+            
+         <News key="general" pageSize={10} country="In" category="general" />
+
+
+         <!-- .env.local file creat kiye apne api key ko chupane ke lea kise aur improtent documetn ko chupa ke used krene ke lea aisa kr sakte hai isse data hack hone ke chance km rehti hai .... -->
+
+         <!-- .env.local se wo jaae ga app.js me aur app.js se hm usko ek prope ke trough pass kr ke apne api ke link me used kr lea hai ...apikey={process.env.REACT_APP_NEWS_API} apikey ke name se props pass kr dea and process.env. ye likna jaruri hai fir env.local me REACT_APP_NEWS_API name se aur apne api key ko pass kr dea  -->
+
+         <!-- and env.local me jab bhi aise importent value ko dale ge to npm start fir se krna hoga ...... react env likh ke google me search bhi kr sakte hai waha bhi detail aa jaae ga . env.local file src ke ander banna hai kise component ke ander nhi and env.local ke ander kise bhi name se bna ke data ko save kr ke used kr sakte hai  -->
+
+
+
+
+
+
+
+
+
+
+
+
+          {/* <li className="nav-item">
+                <Link className="nav-link" to="/business">
+                  Business
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/entertainment">
+                  Entertainment
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/general">
+                  General
+                </Link>
+              </li> */}
+              {/* 
+              <li className="nav-item">
+                <Link className="nav-link" to="/health">
+                  Health
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/science">
+                  Science
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/sports">
+                  Sports
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/technology">
+                  Technology
+                </Link>
+              </li> */}
